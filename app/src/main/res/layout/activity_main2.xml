@@ -5,7 +5,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_margin="30dp"
-    git config --global user.name "Your Name"
 
     >
 
