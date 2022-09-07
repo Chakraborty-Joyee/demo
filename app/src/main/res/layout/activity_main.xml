@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/bkash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bkash"
+        android:textColor="#DA5984"
+        android:textSize="40sp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/bbird"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bkash_icon"
+        android:outlineSpotShadowColor="@color/black"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:clickable="true"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Cell"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:clickable="true"
+        android:text=""/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="95dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#B83561"
+        android:clickable="true"
+        android:text="Submit"
+        android:textStyle="bold"
+
+
+        />
+
+
+</LinearLayout>
